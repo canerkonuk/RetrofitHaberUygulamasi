@@ -51,7 +51,7 @@ public class HaberAdapter extends RecyclerView.Adapter<HaberAdapter.HaberViewHol
 
 
         //Tarihi gün ve saate çevirmek için...
-        String gunvesaat=articleList.get(0).getPublishedAt();
+        String gunvesaat=articleList.get(i).getPublishedAt();
         DateFormat m_ISO8601Local = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'");
 
         try {
