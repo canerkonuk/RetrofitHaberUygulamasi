@@ -33,7 +33,7 @@ import retrofit2.Response;
 public class MainActivity extends AppCompatActivity {
 
 
-    private static final String API_KEY_HABER="d82e3a7c6d87491ca37d22a9b36aa05f";
+    private static final String API_KEY_HABER="API_KEYIN_BULUNDUGU_YER";
     RecyclerView recyclerViewHaber;
     RetrofitInterface haberretroInterface;
     RetrofitInterface bestIconretroInterface;
