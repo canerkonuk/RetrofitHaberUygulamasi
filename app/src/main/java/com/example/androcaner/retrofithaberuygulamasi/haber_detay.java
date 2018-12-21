@@ -18,8 +18,7 @@ public class haber_detay extends AppCompatActivity {
 
 
         webView=findViewById(R.id.habersitesi);
-
-        webView=findViewById(R.id.habersitesi);
+       
         webView.getSettings().setJavaScriptEnabled(true);
         webView.setWebViewClient(new WebViewClient());
 
